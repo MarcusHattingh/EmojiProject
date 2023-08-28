@@ -11,7 +11,7 @@ naturalEmoji.addEventListener('click', () => {
 });
 
 enhancedEmoji.addEventListener('click', () => {
-    if(naturalEmoji.classList.add('natural')) {
+    if(naturalEmoji.classList.contains('natural')) {
     naturalEmoji.classList.add('active');
     enhancedEmoji.classList.remove('active');
     }
